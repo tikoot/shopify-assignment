@@ -1,0 +1,112 @@
+{{ 'home.css' | asset_url | stylesheet_tag }}
+<section class="home_section">
+  <div class="home_header_wrap">
+    <div class="home_header_wrapper">
+      <h1 class="home_header">All-in-one massager that works like
+        <span>
+          magic!</span>
+      </h1>
+      <img src="{{ 'Arrow 4.png' | asset_url }}" alt="" />
+    </div>
+    <img src="{{ 'image 212.png' | asset_url }}" class="home_header_wrap_img" />
+  </div>
+  <img
+    class="vector"
+    src="{{ 'Vector 198 (Stroke).svg' | asset_url }}"
+    alt="" />
+  <div class="home-main_content">
+    <div class="home-content_wrapper">
+      <p class="content_text">MagicMassage™ provides relief from head tensions, muscle aches, sleep irregularities and more - suitable for adults, kids, and pets!</p>
+      <div class="cards">
+        <div class="each_card">
+          <img src="{{ 'Group 4075.png' | asset_url }}" alt="" />
+          <p class="each_card_header">Head Massage</p>
+          <ul class="card_list">
+            <li>&#8226; Reduce stress & anxiety
+            </li>
+            <li>
+              &#8226;
+              Strengthen hair roots
+            </li>
+          </ul>
+        </div>
+        <div class="each_card">
+          <img src="{{ 'Group 4079.png' | asset_url }}" alt="" />
+          <p class="each_card_header">Full-Body Massage</p>
+          <ul class="card_list">
+            <li>&#183; Perfect muscle recovery
+            </li>
+            <li>
+              &#183;
+              Improved circulation
+            </li>
+          </ul>
+        </div>
+        <div class="each_card">
+          <img src="{{ 'Group 4287.png' | asset_url }}" alt="" />
+          <p class="each_card_header">Kid Massage</p>
+          <ul class="card_list">
+            <li>&#183; Promote growth
+            </li>
+            <li>
+              &#183;
+              Ehanced sleep quality
+            </li>
+          </ul>
+        </div>
+        <div class="each_card">
+          <img src="{{ 'Group 4288.png' | asset_url }}" alt="" />
+          <p class="each_card_header">Pet Massage</p>
+          <ul class="card_list">
+            <li>&#183; Boosted immunity
+            </li>
+            <li>
+              &#183;
+              Lifetime of comfort
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="home-img_wrapper">
+      <img src="{{ 'image 212.png' | asset_url }}" alt="" />
+    </div>
+  </div>
+  <div class="buttons_section">
+    <div class="home_buttons">
+      <button class="get_now_btn">Get The MagicMassage™ Now</button>
+      <button class="bundle_btn">Bundles from
+        <span>$41.50</span>
+        each</button>
+    </div>
+    <div class="user_comment">
+      <div class="user_comment_wrapper">
+        <img
+          class="user_img"
+          src="{{ 'image 19.jpg' | asset_url }}"
+          alt="user_comment">
+        <div class="comment_content-wrapper">
+          <p class="user_comment_txt">“It feels amazing on my head and it soothes muscle tension.“</p>
+          <div class="rating_wrapper">
+            <img src="{{ 'Star 2.png' | asset_url }}" alt="rate_star">
+            <img src="{{ 'Star 2.png' | asset_url }}" alt="rate_star">
+            <img src="{{ 'Star 2.png' | asset_url }}" alt="rate_star">
+            <img src="{{ 'Star 2.png' | asset_url }}" alt="rate_star">
+            <img src="{{ 'Star 2.png' | asset_url }}" alt="rate_star">
+            <p>Debra N.</p>
+            <div class="verify">
+              <img src="{{ 'Vector.png' | asset_url }}" alt="checkmark">
+              <p>VERIFIED BUYER</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+{% schema %}
+  {"name": "Home"}
+{% endschema %}

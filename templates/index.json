@@ -1,0 +1,26 @@
+{
+  "sections": {
+    "main": {
+      "type": "home",
+      "settings": {
+      }
+    },
+    "features" : {
+      "type": "feature"
+    },
+    "reviews" : {
+      "type": "review"
+    } ,
+    "questions" : {
+      "type": "question"
+    }   
+  },
+  "order": [
+    "main",
+    "features",
+    "reviews",
+    "questions"
+  ]
+}
+
+ 

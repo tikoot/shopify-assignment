@@ -1,0 +1,152 @@
+.review_header {
+  font-family: 'Mont-Bold';
+  font-size: 30px;
+  color: #11346F;
+  padding-right: 8px;
+  padding-top: 48px;
+  text-align: center;
+}
+
+.review_header_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.review_header span {
+  color: #197aff;
+  font-family: Black;
+}
+
+.review_cards {
+  display: none;
+}
+
+.reviews_wrapper {
+  padding: 26px 18px 17px;
+}
+
+.total_reviews_wrapper {
+  padding-bottom: 23px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1320px;
+}
+
+.total_reviews {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.total_reviews_star {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+
+}
+.total_reviews p {
+  color: #11346F;
+  font-size: 14px;
+  font-family: 'Mont-Bold';
+}
+.total_reviews img {
+  margin-right: 7px;
+}
+.add_review_btn {
+  font-family: 'Mont-Bold';
+  background: transparent;
+  padding: 6px 20px;
+  border: 1px solid #213786;
+  color: #213786;
+  border-radius: 5px;
+  font-size: 14px;
+}
+.slider-dots {
+  text-align: center;
+}
+.slider-dots_item {
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+  margin: 0 2px;
+  background-color: #ddd;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.review_card_slider {
+  background: #FFFFFF;
+  border: 1px solid #E9E9E9;
+  border-radius: 10px;
+
+}
+.review_card_slider_img {
+  width: 100%;
+  object-fit: cover;
+}
+.rate_auth {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 10px;
+}
+.review_card_content {
+  padding: 10px 17px;
+}
+.review_txt {
+  padding-top: 10px;
+  font-size: 13px;
+  font-family: 'Mont-Bold';
+  line-height: 26px;
+}
+.review_verify {
+  color: #89c25f;
+  padding-left: 45px;
+  display: flex;
+  align-items: center;
+}
+.review_verify p {
+  font-size: 11px;
+  padding-left: 7px;
+  font-family: 'Mont-Bold';
+}
+.rate_auth_name {
+  font-family: 'Mont-Bold';
+  color: #11346F;
+  font-size: 14px;
+}
+@media(min-width: 600px) {
+
+  .review_cards {
+    display: block;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .review_header {
+    font-size: 42px;
+  }
+  .review_vector {
+    padding-left: 30%;
+  }
+  .reviews_wrapper {
+    padding: 26px 100px 52px;
+  }
+  .total_reviews {
+    flex-direction: row;
+  }
+
+  .review_card {
+    max-width: 286px;
+    background: #FFFFFF;
+    border: 1px solid #E9E9E9;
+    border-radius: 10px;
+  }
+
+  .slider-dots,
+  .review_cards_slider {
+    display: none;
+  }
+}
